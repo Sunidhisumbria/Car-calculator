@@ -1,0 +1,159 @@
+
+/* .added {
+  padding: 20px;
+} */
+
+.manage {
+ 
+ display: flex;   
+ margin-bottom: 10px;
+ justify-content: space-between;
+
+
+}
+
+
+.new {
+  /* margin-right: 10px;
+  margin-top:37px;
+padding-left: 15px; */
+display: flex;
+padding: 5px;
+margin: 10px;
+}
+
+.played {
+  
+  margin-top: 27px;
+  margin-right: 30%;
+  font-size: 20px
+}
+
+
+.newtable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-left: 44px; */
+
+
+
+}
+
+.newrow {
+  border: 1px solid #ddd;
+
+  margin-left: 8px;
+  font-size: 15px;
+  
+}
+
+th {
+  background-color: #f2f2f2;
+}
+td{
+    padding: 30px;
+    margin: 16px;
+}
+
+.source img {
+  width: 15%;
+    padding: 22px;
+   /* padding-left: 50px; */
+   /* padding-right: 50px; */
+    background-color: rgb(248, 253, 251);
+}
+
+.btn_e {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn, .btn_o, .btn_n, .btn_w{
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #eab7bc;
+  color: #a01313;
+  border: none;
+}
+
+.btn_o {
+  background-color: #fffef9;
+  color: rgb(71, 152, 71);
+  border: 1px solid rgb(71, 152, 71);
+}
+
+.btn_w {
+  background-color: #31455c;
+  color: #fff;
+  border: none;
+ 
+}
+.btn_n  {
+   
+    background-color: #3e86d8;
+    color: #fff;
+    border: none;
+    padding: 5px ;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    
+}
+.btn:hover{
+    background-color: rgb(203, 112, 112);
+}
+.btn_o:hover{
+    background-color: rgb(14, 94, 14);
+}
+.btn_w:hover{
+    background-color: #4272a5;
+}
+.btn_n:hover{
+    background-color: #a06b71;
+}
+.note{
+    display:flex;
+    justify-content: end;
+    float:inline-end;
+}
+.property{
+    width: 100%;
+}
+.car{
+    /* margin-top: 4px; */
+    font-size: 20px;
+    padding: 4px;
+}
+.io{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(71, 170, 255);;
+}
+.mahi{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newrow_o{
+    border: 1px solid #ddd;
+  padding-left: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.ka{
+  margin: 50%;
+  padding-bottom: 60px;
+  ;
+}
